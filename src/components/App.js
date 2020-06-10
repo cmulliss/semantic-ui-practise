@@ -3,11 +3,15 @@ import React from 'react'
 import './App.css'
 import Icons from './Icons'
 import Forms from './Forms'
+import Menu from './Menu'
 
 function App() {
   return (
     <div className='app'>
       <div className='ui container'>
+        <div className='ui segment'>
+          <Menu />
+        </div>
         <div className='ui segment'>
           <h1>semantic-ui</h1>
           <button className='ui fluid button red'>Fluid Red Button</button>

@@ -35,12 +35,13 @@ const Forms = () => {
               <i className=' search icon' />
             </div>
           </div>
-          <div className='field'>
-            <label>tag</label>
-            <div className='right labeled left icon input' />
-            <i className='large tag brown icon' />
+        </div>
+        <div className='field'>
+          <label>Tags</label>
+          <div className='ui right labeled left icon input'>
+            <i className='orange star icon' />
             <input type='text' placeholder='Enter tags' />
-            <div className='ui pink tag label'>Tags</div>
+            <div className='ui orange tag label'>Tag</div>
           </div>
         </div>
       </form>

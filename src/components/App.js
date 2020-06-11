@@ -4,8 +4,9 @@ import './App.css'
 import Icons from './Icons'
 import Forms from './Forms'
 import Menu from './Menu'
+import GridSystem from './Grid'
 
-function App() {
+function App () {
   return (
     <div className='app'>
       <div className='ui container'>
@@ -98,6 +99,7 @@ function App() {
         <Icons />
         <Forms />
       </div>
+      <GridSystem />
     </div>
   )
 }

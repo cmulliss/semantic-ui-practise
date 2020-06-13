@@ -5,8 +5,9 @@ import Icons from './Icons'
 import Forms from './Forms'
 import Menu from './Menu'
 import GridSystem from './Grid'
+import Dividers from './Dividers'
 
-function App () {
+function App() {
   return (
     <div className='app'>
       <div className='ui container'>
@@ -100,6 +101,7 @@ function App () {
         <Forms />
       </div>
       <GridSystem />
+      <Dividers />
     </div>
   )
 }
